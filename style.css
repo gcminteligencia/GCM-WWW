@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+    --colour01: #1E152A;
+    --colour02: #4E6766;
+    --colour03: #FFB100;
+    --colour04: #C1CAD6;
+    --colour05: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: var(--colour01);
+    padding: 30px;
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: var(--colour03);
+    text-align: center;
+}
