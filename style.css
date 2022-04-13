@@ -53,7 +53,7 @@ nav > a {
 
 nav > a:hover {
     color: var(--colour05);
-    background-color: #c420204d;
+    background-color: #c42020;
     border-radius: 4px;
     transition: 0.4s;
 }
