@@ -8,34 +8,54 @@
 /* All for one */
 
 :root {
-    --colour01: #1E152A;
-    --colour02: #4E6766;
-    --colour03: #C42021;
-    --colour04: #C1CAD6;
-    --colour05: #FFFFFF;
+    --colour00: #000000; /* Black */
+    --colour01: #1E152A; /* Dark purple */
+    --colour03: #313131; /* Jet */
+    --colour04: #C42021; /* Lava */
+    --colour05: #F0EDEE; /* Cultured */
+    --colour06: #2C666E; /* Ming */
 }
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 
 /* Omega */
 
 header {
-    background-image: linear-gradient(to bottom, var(--colour05), var(--colour04));
+    background-color: var(--colour03);
     padding: 30px;
 }
 
+header > p {
+    color: var(--colour05);
+    font-size: 1.4em;
+    text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000000;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
 nav {
-    background-color: var(--colour04);
+    background-color: var(--colour00);
     box-shadow: 0px 2px 4px #00000050;
     padding: 10px;
 }
 
 nav > a {
-    margin: 5px;
+    color: var(--colour05);
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
     text-decoration: none;
-    color: var(--colour01);
+    line-height: 40px;
+}
+
+nav > a:hover {
+    color: var(--colour05);
+    background-color: #c420204d;
+    border-radius: 4px;
+    transition: 0.4s;
 }
 
 img#logo {
@@ -50,16 +70,44 @@ body {
 div#job {
     text-align: center;
 }
+div#job > img {
+    margin: 5px;
+    box-shadow: 4px 4px 4px #0000004f;
+}
 
 main {
     background-color: var(--colour05);
     margin: auto;
     max-width: 600px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 0px 5px #000000;
 }
 
-h1 {
-    color: var(--colour03);
+h1#main {
+    color: var(--colour05);
     font-family: "modern", Arial, Helvetica, sans-serif;
-    text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000200;
+    text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000000;
+    text-align: center;
+}
+
+h2 {
+    color: var(--colour01);
+    padding: 10px;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 30px;
+
+}
+
+footer {
+    background-image: linear-gradient(to top, var(--colour03), var(--colour05));
+}
+
+footer p {
     text-align: center;
 }
