@@ -9,7 +9,7 @@
 
 :root {
     --colour00: #000000; /* Black */
-    --colour01: #1E152A; /* Dark purple */
+    --colour01: #031825; /* Dark purple */
     --colour03: #313131; /* Jet */
     --colour04: #C42021; /* Lava */
     --colour05: #F0EDEE; /* Cultured */
@@ -105,9 +105,10 @@ p {
 }
 
 footer {
-    background-image: linear-gradient(to top, var(--colour03), var(--colour05));
+    background-color: var(--colour00);
 }
 
 footer p {
+    color: var(--colour05);
     text-align: center;
 }
