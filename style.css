@@ -1,9 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "modern";
+    src: url(font/xirod.ttf);
+}
+
+/* All for one */
+
 :root {
     --colour01: #1E152A;
     --colour02: #4E6766;
-    --colour03: #FFB100;
+    --colour03: #C42021;
     --colour04: #C1CAD6;
     --colour05: #FFFFFF;
 }
@@ -12,17 +19,47 @@
     margin: 0px;
 }
 
+/* Omega */
+
 header {
-    background-color: var(--colour01);
+    background-image: linear-gradient(to bottom, var(--colour05), var(--colour04));
     padding: 30px;
 }
 
-img.logo {
+nav {
+    background-color: var(--colour04);
+    box-shadow: 0px 2px 4px #00000050;
+    padding: 10px;
+}
+
+nav > a {
+    margin: 5px;
+    text-decoration: none;
+    color: var(--colour01);
+}
+
+img#logo {
     display: block;
     margin: auto;
 }
 
+body {
+    background-color: var(--colour01);
+}
+
+div#job {
+    text-align: center;
+}
+
+main {
+    background-color: var(--colour05);
+    margin: auto;
+    max-width: 600px;
+}
+
 h1 {
     color: var(--colour03);
+    font-family: "modern", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000200;
     text-align: center;
 }
