@@ -78,16 +78,33 @@ div.box {
 
 div.descri {
     position: absolute;
-    border: 5px solid white;
+    border: 5px solid #ffffff;
     height: 100px;
-    width: 180px;
+    width: 200px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
 
 div#q1 {
-    background-image: url(images/denuncia-div.png);
+    background-image: url(images/new-images/apoio.png);
+    background-size: 100%;
+}
+
+div#q2 {
+    background-image: url(images/new-images/ouvidoria.png);
+    background-size: 100%;
+}
+
+div.box p {
+    font-size: 40px;
+    text-indent: 0px;
+    text-shadow: 3px 0px 3px #000000, -3px 0px 3px #000000, 0px 3px 3px #000000, 0px -3px 3px #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 main {
