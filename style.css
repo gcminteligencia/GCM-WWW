@@ -127,8 +127,9 @@ div.box p {
     transform: translate(-50%, -50%);
 }
 
-div.box::hove {
-    background-color: #000000;
+div.box:hover {
+    box-shadow: 5px 5px 10px;
+    background-color: #00000080;
 }
 
 main {
