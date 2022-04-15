@@ -73,7 +73,7 @@ div.box {
     height: 150px;
     width: 250px;
     margin: 5px;
-    background-color: #b42c2c;
+    background-color: #000000;
 }
 
 div.descri {
@@ -92,7 +92,27 @@ div#q1 {
 }
 
 div#q2 {
+    background-image: url(images/new-images/denuncia.png);
+    background-size: 100%;
+}
+
+div#q3 {
     background-image: url(images/new-images/ouvidoria.png);
+    background-size: 100%;
+}
+
+div#q4 {
+    background-image: url(images/new-images/transito2.png);
+    background-size: 100%;
+}
+
+div#q5 {
+    background-image: url(images/new-images/canil.png);
+    background-size: 100%;
+}
+
+div#q6 {
+    background-image: url(images/new-images/concurso.png);
     background-size: 100%;
 }
 
@@ -105,6 +125,10 @@ div.box p {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+div.box::hove {
+    background-color: #000000;
 }
 
 main {
