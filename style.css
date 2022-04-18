@@ -13,7 +13,7 @@
     --colour03: #313131; /* Jet */
     --colour04: #C42021; /* Lava */
     --colour05: #F0EDEE; /* Cultured */
-    --colour06: #2C666E; /* Ming */
+    --colour06: #EEC643; /* Ming */
 }
 
 * {
@@ -53,7 +53,7 @@ nav > a {
 
 nav > a:hover {
     color: var(--colour05);
-    background-color: #c42020;
+    background-color: var(--colour06);
     border-radius: 4px;
     transition: 0.4s;
 }
@@ -86,6 +86,7 @@ div.txt {
     left: 50%;
     top: 50%;
     box-shadow: 2px 0px 2px #000000ab, -2px 0px 2px #000000ab, 0px 2px 2px #000000ab, 0px -2px 2px #000000ab;
+    box-shadow: inset 2px 0px 2px #000000ab, -2px 0px 2px #000000ab, 0px 2px 2px #000000ab, 0px -2px 2px #000000ab;
     transform: translate(-50%,-50%);
 }
 
@@ -117,6 +118,27 @@ div#q5 {
 div#q6 {
     background-image: url(images/new-images/concurso.png);
     background-size: 100%;
+}
+
+div.superin {
+    background-color: #000000;
+    border: solid 5px var(--colour06);
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+}
+
+div#moreira {
+    background-image: url(images/sp/moreira.png);
+    background-size: cover;
+    background-position: right center;
+}
+
+div#carla {
+    background-image: url(images/sp/carla.png);
+    background-size: cover;
+    background-image: center center;
 }
 
 div.box p {
