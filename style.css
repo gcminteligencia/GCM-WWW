@@ -127,6 +127,7 @@ div.superin {
     height: 250px;
     width: 250px;
     margin: 5px;
+    box-shadow: #0000009f 2px 2px 4px;
 }
 
 div#moreira {
