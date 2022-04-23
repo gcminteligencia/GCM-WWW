@@ -59,6 +59,15 @@ nav > a:hover {
     transition: 0.4s;
 }
 
+a.external {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.external::after {
+    content: '\00A0\1F517'
+}
+
 img#logo {
     padding-bottom: 20px;
 }
@@ -142,6 +151,12 @@ div#carla {
     background-image: center center;
 }
 
+div#fernandes {
+    background-image: url(images/sp/fernandes.png);
+    background-size: cover;
+    background-position: center center;
+}
+
 div.box p {
     font-size: 40px;
     text-indent: 0px;
@@ -168,6 +183,19 @@ main {
     box-shadow: 2px 0px 5px #000000;
 }
 
+section.superin {
+    background-color: rgba(128, 128, 128, 0.219);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+img#bo {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
 article {
     text-align: center;
 }
@@ -192,6 +220,7 @@ p {
     line-height: 30px;
 
 }
+
 
 footer {
     background-color: var(--colour00);
