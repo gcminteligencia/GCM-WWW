@@ -242,6 +242,10 @@ thead > tr > th {
     background-color: #5c5c5c;
 }
 
+tbody > tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
 caption {
     color: #770000;
     font-size: 1.5em;
