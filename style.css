@@ -230,3 +230,11 @@ footer p {
     color: var(--colour05);
     text-align: center;
 }
+
+table {
+    
+}
+
+td, th {
+    border: 1px solid #000000;
+}
