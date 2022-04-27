@@ -232,9 +232,32 @@ footer p {
 }
 
 table {
-    
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #5c5c5c;
+}
+
+caption {
+    color: #770000;
+    font-size: 1.5em;
+    padding: 10px;
 }
 
 td, th {
     border: 1px solid #000000;
+    padding: 10px;
+}
+
+th {
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+
+td.number {
+    text-align: center;
 }
