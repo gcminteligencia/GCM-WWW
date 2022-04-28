@@ -10,10 +10,10 @@
 :root {
     --colour00: #000000; /* Black */
     --colour01: #031825; /* Rich Black FLOGRA 29 */
-    --colour03: #313131; /* Jet */
+    --colour03: #222425; /* */
     --colour04: #C42021; /* Lava */
     --colour05: #F0EDEE; /* Cultured */
-    --colour06: #2C666E; /* Ming */
+    --colour06: #EEC643; /* Ming */
 }
 
 * {
@@ -24,6 +24,7 @@
 /* Omega */
 
 header {
+    text-align: center;
     background-color: var(--colour03);
     padding: 30px;
 }
@@ -53,35 +54,150 @@ nav > a {
 
 nav > a:hover {
     color: var(--colour05);
-    background-color: #c42020;
+    background-color: var(--colour04);
     border-radius: 4px;
     transition: 0.4s;
 }
 
+a.external {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.external::after {
+    content: '\00A0\1F517'
+}
+
 img#logo {
-    display: block;
-    margin: auto;
+    padding-bottom: 20px;
 }
 
 body {
     background-color: var(--colour01);
 }
 
-div#job {
-    text-align: center;
-}
-div#job > img {
+div.box {
+    position: relative;
+    display: inline-block;
+    height: 150px;
+    width: 250px;
     margin: 5px;
-    box-shadow: 4px 4px 4px #0000004f;
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+
+div.txt {
+    position: absolute;
+    background-color: transparent;
+    border: 5px solid #ffffff;
+    height: 100px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    box-shadow: 2px 0px 2px #000000ab, -2px 0px 2px #000000ab, 0px 2px 2px #000000ab, 0px -2px 2px #000000ab;
+    box-shadow: inset 2px 0px 2px #000000ab, -2px 0px 2px #000000ab, 0px 2px 2px #000000ab, 0px -2px 2px #000000ab;
+    transform: translate(-50%,-50%);
+}
+
+div#q1 {
+    background-image: url(images/new-images/apoio.png);
+    background-size: 100%;
+}
+
+div#q2 {
+    background-image: url(images/new-images/denuncia.png);
+    background-size: 100%;
+}
+
+div#q3 {
+    background-image: url(images/new-images/ouvidoria.png);
+    background-size: 100%;
+}
+
+div#q4 {
+    background-image: url(images/new-images/transito2.png);
+    background-size: 100%;
+}
+
+div#q5 {
+    background-image: url(images/new-images/canil.png);
+    background-size: 100%;
+}
+
+div#q6 {
+    background-image: url(images/new-images/concurso.png);
+    background-size: 100%;
+}
+
+div.superin {
+    background-color: #000000;
+    border: solid 5px var(--colour06);
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    box-shadow: #0000009f 2px 2px 4px;
+}
+
+div#moreira {
+    background-image: url(images/sp/moreira.png);
+    background-size: cover;
+    background-position: right center;
+}
+
+div#carla {
+    background-image: url(images/sp/carla.png);
+    background-size: cover;
+    background-image: center center;
+}
+
+div#fernandes {
+    background-image: url(images/sp/fernandes.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+div.box p {
+    font-size: 40px;
+    text-indent: 0px;
+    text-shadow: 3px 0px 3px #000000, -3px 0px 3px #000000, 0px 3px 3px #000000, 0px -3px 3px #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.box:hover {
+    box-shadow: 5px 5px 10px;
+    background-color: #00000080;
 }
 
 main {
     background-color: var(--colour05);
     margin: auto;
+    padding: 20px;
     max-width: 600px;
     margin-bottom: 20px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 2px 0px 5px #000000;
+}
+
+section.superin {
+    background-color: rgba(128, 128, 128, 0.219);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+img#bo {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+article {
+    text-align: center;
 }
 
 h1#main {
@@ -93,6 +209,7 @@ h1#main {
 
 h2 {
     color: var(--colour01);
+    text-align: left;
     padding: 10px;
 }
 
@@ -104,11 +221,47 @@ p {
 
 }
 
+
 footer {
     background-color: var(--colour00);
 }
 
 footer p {
     color: var(--colour05);
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #5c5c5c;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+caption {
+    color: #770000;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+th {
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
+
+td.number {
     text-align: center;
 }
