@@ -231,6 +231,12 @@ footer p {
     text-align: center;
 }
 
+div#statistic {
+    height: 250px;
+    overflow-y: auto;
+
+}
+
 table {
     border-collapse: collapse;
     position: relative;
