@@ -184,6 +184,14 @@ main {
     box-shadow: 2px 0px 5px #000000;
 }
 
+section#services {
+    text-align: center;
+}
+
+section.photo {
+    text-align: center;
+}
+
 section.superin {
     background-color: rgba(128, 128, 128, 0.219);
     margin: 20px;
@@ -271,4 +279,8 @@ th {
 
 td.number {
     text-align: center;
+}
+
+img.photo {
+    width: 100%;
 }
