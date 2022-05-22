@@ -100,32 +100,32 @@ div.txt {
 }
 
 div#q1 {
-    background-image: url(images/new-images/apoio.png);
+    background-image: url(images/new-images/normal/1.png);
     background-size: 100%;
 }
 
 div#q2 {
-    background-image: url(images/new-images/woman.png);
+    background-image: url(images/new-images/normal/2.png);
     background-size: 100%;
 }
 
 div#q3 {
-    background-image: url(images/new-images/ouvidoria.png);
+    background-image: url(images/new-images/normal/3.png);
     background-size: 100%;
 }
 
 div#q4 {
-    background-image: url(images/new-images/transito2.png);
+    background-image: url(images/new-images/normal/4.png);
     background-size: 100%;
 }
 
 div#q5 {
-    background-image: url(images/new-images/canil.png);
+    background-image: url(images/new-images/normal/5.png);
     background-size: 100%;
 }
 
 div#q6 {
-    background-image: url(images/new-images/concurso.png);
+    background-image: url(images/new-images/normal/6.png);
     background-size: 100%;
 }
 
