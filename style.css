@@ -184,11 +184,11 @@ main {
     box-shadow: 2px 0px 5px #000000;
 }
 
-section#services {
+article#services {
     text-align: center;
 }
 
-section.photo {
+article.photo {
     text-align: center;
 }
 
