@@ -182,6 +182,18 @@ div.box:hover {
     background-color: #00000080;
 }
 
+div.botao {
+    background-color: var(--colour04);
+    color: var(--colour05);
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 400px;
+    border-radius: 40px;
+}
+
 main {
     background-color: var(--colour05);
     margin: auto;
