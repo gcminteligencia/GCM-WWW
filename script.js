@@ -8,4 +8,6 @@ function titleFlex(){
 
 function metadata(){
     var name = window.document.querySelector('input#name')
+    var result = window.document.querySelector('div.result')
+    result.innerHTML = `Parabens ${name}`
 }

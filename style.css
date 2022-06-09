@@ -341,3 +341,9 @@ textarea {
     margin: auto;
     padding: 20px;
 }
+
+div.result {
+    background-color: #20aa20;
+    height: 250px;
+    width: 250px;
+}
