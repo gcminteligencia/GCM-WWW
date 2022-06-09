@@ -5,3 +5,7 @@ function titleFlex(){
     if (width <= 700)
         name.innerHTML = `GCM`
 }
+
+function metadata(){
+    var name = window.document.querySelector('input#name')
+}

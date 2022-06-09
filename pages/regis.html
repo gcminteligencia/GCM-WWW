@@ -25,7 +25,8 @@
         <h1>Registrar Boletim de Ocorrência</h1>
         <p>Atenção! Registrar informação falta para autoridades da segurança pública é crime previsto no artido 340 do Código Penal.</p>
         <h2>Preencha os dados</h2>
-        <p>Nome: <input type="text"> CPF: <input type="number"></p>
+        <p>Nome: <input type="text" class="txt" id="name"> </p>
+        <p>CPF/CNPJ: <input type="number" class="txt"></p>
         <p>
             Sexo:
             <input type="radio" name="radgender" id="male">
@@ -33,6 +34,29 @@
             <input type="radio" name="radgender" id="fema">
             <label for="fema">Feminino</label>
         </p>
+        <p>Contato: <input type="number" class="txt" placeholder="+55 (93) 99100-0000"></p>
+        <p>e-mail: <input type="email" class="txt" placeholder="secretaria@contact.io"></p>
+        <h3>Tipo de Atendemento</h3>
+        <p>
+            <input type="checkbox" name="typeaten" id="aten01">
+            <label for="aten01">Apoio aos eventos municipais</label>
+            <input type="checkbox" name="typeaten" id="aten02">
+            <label for="aten02">Apoio as secretarias</label>
+            <input type="checkbox" name="typeaten" id="atend03">
+            <label for="aten03">Averiguação de consumo de entorpecente</label>
+            <input type="checkbox" name="typeaten" id="atend04">
+            <label for="aten03">Orientação Sócio-educativa</label>
+            <input type="checkbox" name="typeaten" id="atend05">
+            <label for="aten03">Apoio a sociedade civil organizada</label>
+            <input type="checkbox" name="typeaten" id="atend05">
+            <label for="aten03">Intensificação de ronda/averiguação</label>
+            <input type="checkbox" name="typeaten" id="atend04">
+            <label for="aten03">Outros atendimentos (Detalhar no histórico)</label>
+        </p>
+        <h3>Histórico</h3>
+        <label for="msg"></label>
+        <div class="area"><textarea name="msg" id="msg" cols="50" rows="10" placeholder="Digite aqui..."></textarea></div>
+        
     </main>
     <footer>
         <p>Esse site foi desenvolvido pelo Departamento de Inteligência da GCM.</p>
