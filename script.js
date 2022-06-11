@@ -8,6 +8,15 @@ function titleFlex(){
 
 function metadata(){
     var name = window.document.querySelector('input#name')
+    var cpf = window.document.querySelector('input#cpf')
+    var contact = window.document.querySelector('input#contact')
+    var email = window.document.querySelector('input#email')
+    var service = window.document.getElementsByName('typeaten')
     var result = window.document.querySelector('div.result')
-    result.innerHTML = `Parabens ${name}`
+
+    if (name.value.length >= 3 && cpf.value >= 10000000){
+        result.innerHTML = `Parabéns Sr(a) ${name.value}, portador do CPF/CNPJ ${cpf.value}, do contato ${contact.value} e do email ${email.value} sua ocorrência foi registrada com sucesso para atender os serviços: ${service.value}. Tenha um bom dia.`
+    }else {
+        window.alert('Atenção, preencha todos os dados antes de enviar.')
+    }
 }

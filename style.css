@@ -343,7 +343,6 @@ textarea {
 }
 
 div.result {
+    margin: 20px;
     background-color: #20aa20;
-    height: 250px;
-    width: 250px;
 }
