@@ -14,7 +14,7 @@ function metadata(){
     var service = window.document.getElementsByName('typeaten')
     var result = window.document.querySelector('div.result')
 
-    if (name.value.length >= 3 && cpf.value >= 10000000){
+    if (name.value.length >= 3 && cpf.value.length >= 11){
         result.innerHTML = `Parabéns Sr(a) ${name.value}, portador do CPF/CNPJ ${cpf.value}, do contato ${contact.value} e do email ${email.value} sua ocorrência foi registrada com sucesso para atender os serviços: ${service.value}. Tenha um bom dia.`
     }else {
         window.alert('Atenção, preencha todos os dados antes de enviar.')
