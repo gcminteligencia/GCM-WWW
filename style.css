@@ -275,9 +275,12 @@ footer p {
     text-align: center;
 }
 
-div#statistic {
-    height: 250px;
-    overflow-y: auto;
+div#gcmpf {
+    background-image: url(images/photos/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 
 }
 
