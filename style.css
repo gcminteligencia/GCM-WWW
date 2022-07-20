@@ -265,6 +265,10 @@ p.content {
     padding-top: 30%;
 }
 
+p.txt {
+    font-size: 18px;
+    line-height: 40px;
+}
 
 footer {
     background-color: var(--colour00);
