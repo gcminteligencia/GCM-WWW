@@ -10,7 +10,7 @@
 :root {
     --colour00: #000000; /* Black */
     --colour01: #031825; /* Rich Black FLOGRA 29 */
-    --colour03: #222425; /* */
+    --colour03: #303030; /* */
     --colour04: #C42021; /* Lava */
     --colour05: #F0EDEE; /* Cultured */
     --colour06: #EEC643; /* Ming */
@@ -26,7 +26,7 @@
 
 header {
     text-align: center;
-    background-color: var(--colour03);
+    background-color: var(--colour00);
     padding: 30px;
 }
 
@@ -233,7 +233,7 @@ article {
 h1#main {
     color: var(--colour05);
     font-family: "modern", Arial, Helvetica, sans-serif;
-    text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000000;
+    text-shadow: 2px 0px 5px var(--colour03), -2px 0px 5px var(--colour03), 0px 2px 5px var(--colour03), 0px -2px 5px #000000;
     text-align: center;
 }
 
