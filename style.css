@@ -26,7 +26,7 @@
 
 header {
     text-align: center;
-    background-color: #000000;
+    background-color: var(--colour00);
     padding: 30px;
 }
 
