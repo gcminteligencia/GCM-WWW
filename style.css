@@ -144,6 +144,12 @@ div.superin {
     box-shadow: #0000009f 2px 2px 4px;
 }
 
+div#patricia {
+    background-image: url(images/sp/patricia.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 div#moreira {
     background-image: url(images/sp/moreira.png);
     background-size: cover;
