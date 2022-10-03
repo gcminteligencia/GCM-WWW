@@ -224,20 +224,19 @@ div#fernandes {
 
 /* ------- Photos -------*/
 
-div#gcmpf {
-    background-image: url(images/photos/1.jpg);
+div.photos {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 600px;
 }
 
-div#pf-gcm {
-    background-image: url(images/photos/gcm-pf.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+div#gcmpf {
+    background-image: url(images/photos/1.jpg);
+}
+
+div#novocmt {
+    background-image: url(images/photos/6.jpeg);
 }
 
 img#bo {
