@@ -238,6 +238,10 @@ div.photos {
     height: 600px;
 }
 
+div#tropa {
+    background-image: url(images/photos/7.jpeg);
+}
+
 div#gcmpf {
     background-image: url(images/photos/1.jpg);
 }
