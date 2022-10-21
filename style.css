@@ -248,6 +248,10 @@ div#novocmt {
     background-image: url(images/photos/6.jpeg);
 }
 
+div#mp {
+    background-image: url(images/photos/8.jpg);
+}
+
 img#bo {
     display: block;
     margin: auto;
@@ -287,8 +291,8 @@ div.result {
 
 /* ------- button -------*/
 
-div.botao {
-    background-color: var(--colour07); /* red is colour04 and green is colour07*/
+div.button {
+    background-color: var(--colour04); /* red is colour04 and green is colour07*/
     color: var(--colour05);
     font-size: 20px;
     margin: auto;
@@ -298,7 +302,9 @@ div.botao {
     width: 300px;
     border-radius: 40px;
 }
-
+div#on {
+    background-color: var(--colour07);
+}
 /* --------------*/
 
 /* ------- TXT -------*/
@@ -362,7 +368,7 @@ a {
     text-decoration: none;
 }
 
-a.services {
+a.service {
     text-decoration: none;
     color: #000000;
 }
