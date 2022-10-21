@@ -14,6 +14,7 @@
     --colour04: #C42021; /* Lava */
     --colour05: #F0EDEE; /* Cultured */
     --colour06: #EEC643; /* Ming */
+    --colour07: #077a07;
 }
 
 * {
@@ -287,7 +288,7 @@ div.result {
 /* ------- button -------*/
 
 div.botao {
-    background-color: var(--colour04);
+    background-color: var(--colour07); /* red is colour04 and green is colour07*/
     color: var(--colour05);
     font-size: 20px;
     margin: auto;
