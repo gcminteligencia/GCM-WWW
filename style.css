@@ -268,7 +268,7 @@ img.photo {
 }
 
 img#logo {
-    display: inline-block;
+    display: inline;
     text-align: left;
     padding: 20px;
 }
