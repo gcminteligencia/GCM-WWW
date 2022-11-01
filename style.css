@@ -28,14 +28,14 @@
 /* BASIC */
 
 header {
-    text-align: center;
+    text-align: left;
     background-color: var(--colour00);
-    padding: 30px;
+    padding: 10px;
 }
 
 header > p {
     color: var(--colour05);
-    font-size: 1.4em;
+    font-size: 1.0em;
     text-shadow: 2px 0px 5px #000000, -2px 0px 5px #000000, 0px 2px 5px #000000, 0px -2px 5px #000000;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -268,7 +268,9 @@ img.photo {
 }
 
 img#logo {
-    padding-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 /* --------------*/
@@ -318,7 +320,7 @@ h1#main {
     color: var(--colour05);
     font-family: "modern", Arial, Helvetica, sans-serif;
     text-shadow: 2px 0px 5px var(--colour03), -2px 0px 5px var(--colour03), 0px 2px 5px var(--colour03), 0px -2px 5px #000000;
-    text-align: center;
+    text-align: left;
 }
 
 h2 {
