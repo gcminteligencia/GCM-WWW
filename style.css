@@ -106,11 +106,16 @@ footer p {
 /* ------- News -------*/
 
 section.news {
-    background-image: url(images/photos/12.jpg);
     max-width: 2000px;
-    height: 500px;
+    min-width: 300px;
+    min-height: 500px;
     margin: 0px;
-    padding: 0px;
+    padding: 15px;
+    background-image: url(images/photos/12.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 
 article.main {
@@ -122,19 +127,9 @@ article.main {
 
 div.news {
     display: inline-block;
-    background-color: #000000;
-    height: 400px;
-    max-width: 700px;
-    min-width: 350px;
-    margin: 5px 8px 5px 5px;
+
 }
 
-div.col {display: inline-block;
-    background-color: var(--colour05);
-    height: 400px;
-    width: 100px;
-    margin: 5px 5px 5px 8px;
-}
 
 /* -------------- */
 
@@ -268,7 +263,7 @@ div.photos {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
     margin: 10px;
 }
 
