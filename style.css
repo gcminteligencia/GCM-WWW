@@ -73,14 +73,14 @@ a.external::after {
 }
 
 body {
-    background-color: var(--colour01);
+    background-color: var(--colour05);
 }
 
 main {
     background-color: var(--colour05);
     margin: auto;
     padding: 20px;
-    max-width: 900px;
+    max-width: 1000px;
     margin-bottom: 20px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 2px 0px 5px #000000;
@@ -102,6 +102,12 @@ footer p {
 
 /* -------------- */
 
+/* ------- Newa -------*/
+
+
+
+/* -------------- */
+
 /* ------- Services -------*/
 
 article.services {
@@ -111,8 +117,8 @@ article.services {
 div.box {
     position: relative;
     display: inline-block;
-    height: 150px;
-    width: 250px;
+    height: 180px;
+    width: 300px;
     margin: 5px;
     background-color: #000000;
     border: 2px solid #000000;
@@ -123,7 +129,7 @@ div.txt {
     background-color: transparent;
     border: 5px solid #ffffff;
     height: 100px;
-    width: 200px;
+    width: 220px;
     left: 50%;
     top: 50%;
     box-shadow: 2px 0px 2px #000000ab, -2px 0px 2px #000000ab, 0px 2px 2px #000000ab, 0px -2px 2px #000000ab;
