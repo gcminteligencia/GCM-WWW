@@ -71,6 +71,9 @@ a.external {
 a.external::after {
     content: '\00A0\1F517'
 }
+hr {
+    margin: 20px;
+}
 
 body {
     background-color: var(--colour05);
