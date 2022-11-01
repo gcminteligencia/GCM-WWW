@@ -270,7 +270,7 @@ img.photo {
 img#logo {
     display: inline-block;
     text-align: left;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 /* --------------*/
