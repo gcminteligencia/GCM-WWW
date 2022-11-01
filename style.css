@@ -105,14 +105,36 @@ footer p {
 
 /* ------- News -------*/
 
-article.news {
-    background-color: var(--colour01);
+section.news {
+    background-image: url(images/photos/12.jpg);
     max-width: 2000px;
-    height: 400px;
+    height: 500px;
     margin: 0px;
     padding: 0px;
 }
 
+article.main {
+    background-color: transparent;
+    color: var(--colour05);
+    margin: auto;
+    max-width: 1000px;
+}
+
+div.news {
+    display: inline-block;
+    background-color: #000000;
+    height: 400px;
+    max-width: 700px;
+    min-width: 350px;
+    margin: 5px 8px 5px 5px;
+}
+
+div.col {display: inline-block;
+    background-color: var(--colour05);
+    height: 400px;
+    width: 100px;
+    margin: 5px 5px 5px 8px;
+}
 
 /* -------------- */
 
@@ -343,6 +365,10 @@ h2 {
     color: var(--colour01);
     text-align: left;
     padding: 10px;
+}
+
+h2.alt {
+    color: var(--colour05);
 }
 
 h3 {
