@@ -132,6 +132,14 @@ div.news {
 
 }
 
+h3.news {
+    text-align: right;
+    font-weight: bolder;
+}
+
+a.news {
+    color: var(--colour05);
+}
 
 /* -------------- */
 
