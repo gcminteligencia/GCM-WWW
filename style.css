@@ -218,7 +218,7 @@ div#q6 {
 /* ------- Superintendencia -------*/
 
 section.superin {
-    background-color: #80808038;
+    background-color: var(--colour00);
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
@@ -248,7 +248,7 @@ div#moreira {
 }
 
 div#carla {
-    background-image: url(images/sp/carla.png);
+    background-image: url(images/sp/carla02.jpg);
     background-size: cover;
     background-image: center center;
 }
