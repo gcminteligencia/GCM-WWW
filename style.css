@@ -81,12 +81,12 @@ body {
 
 main {
     background-color: var(--colour05);
-    box-shadow: 2px 0px 5px #000000;
 }
 
 section.main {
     background-color: var(--colour05);
     margin: auto;
+    padding: 20px;
     max-width: 1000px;
 }
 
