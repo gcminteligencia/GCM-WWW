@@ -109,7 +109,6 @@ footer p {
 /* ------- News -------*/
 
 section.news {
-    max-width: 2000px;
     min-width: 300px;
     min-height: 500px;
     margin: 0px;
@@ -117,7 +116,7 @@ section.news {
     background-image: url(images/photos/12.jpg);
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 
 }
 
