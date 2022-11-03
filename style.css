@@ -293,7 +293,7 @@ div#novocmt {
 div#mp {
     background-image: url(images/photos/8.jpg);
     background-attachment: fixed;
-    
+    box-shadow: inset 15px 2px 45px;
 }
 
 div#canil {
