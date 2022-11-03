@@ -292,6 +292,8 @@ div#novocmt {
 
 div#mp {
     background-image: url(images/photos/8.jpg);
+    background-attachment: fixed;
+    
 }
 
 div#canil {
