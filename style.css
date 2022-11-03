@@ -229,7 +229,7 @@ section.superin {
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 div.superin {
@@ -368,7 +368,7 @@ h1#main {
 }
 
 h2 {
-    color: var(--colour01);
+    color: var(--colour00);
     text-align: left;
     padding: 10px;
 }
