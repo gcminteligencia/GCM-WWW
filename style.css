@@ -9,10 +9,10 @@
 
 :root {
     --colour00: #000000; /* Black */
-    --colour01: #031825; /* Rich Black FLOGRA 29 */
+    --colour01: #266DD3; /* Celtic blue */
     --colour03: #303030; /* */
-    --colour04: #C42021; /* Lava */
-    --colour05: #F0EDEE; /* Cultured */
+    --colour04: #B80C09; /* Internatioanl */
+    --colour05: #F7F7FF; /* Ghost white */
     --colour06: #EEC643; /* Ming */
     --colour07: #077a07;
 }
@@ -58,7 +58,7 @@ nav > a {
 
 nav > a:hover {
     color: var(--colour05);
-    background-color: var(--colour04);
+    background-color: var(--colour01);
     border-radius: 4px;
     transition: 0.4s;
 }
@@ -109,7 +109,6 @@ footer p {
 /* ------- News -------*/
 
 section.news {
-    max-width: 2000px;
     min-width: 300px;
     min-height: 500px;
     margin: 0px;
@@ -117,7 +116,7 @@ section.news {
     background-image: url(images/photos/12.jpg);
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 
 }
 
@@ -133,6 +132,14 @@ div.news {
 
 }
 
+h3.news {
+    text-align: right;
+    font-weight: bolder;
+}
+
+a.news {
+    color: var(--colour05);
+}
 
 /* -------------- */
 
@@ -222,7 +229,7 @@ section.superin {
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 div.superin {
@@ -361,7 +368,7 @@ h1#main {
 }
 
 h2 {
-    color: var(--colour01);
+    color: var(--colour00);
     text-align: left;
     padding: 10px;
 }
