@@ -284,8 +284,6 @@ div.photos {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    max-width: 600px;
-    max-height: 400px;
 }
 
 #apoio {
@@ -318,6 +316,8 @@ div#mp {
     background-image: url(images/photos/8.jpg);
     background-attachment: fixed;
     box-shadow: inset 15px 2px 45px;
+    height: 500px;
+    margin: 10px;
 }
 
 div#canil {
