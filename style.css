@@ -79,6 +79,11 @@ body {
     background-color: var(--colour05);
 }
 
+.tatic {
+    background-color: var(--colour00);
+    color: var(--colour05);
+}
+
 main {
     background-color: var(--colour05);
 }
@@ -88,6 +93,11 @@ section.main {
     margin: auto;
     padding: 20px;
     max-width: 1000px;
+}
+
+section#tatic {
+    background-color: var(--colour00);
+    color: var(--colour05);
 }
 
 article {
@@ -274,8 +284,6 @@ div.photos {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 500px;
-    margin: 10px;
 }
 
 #apoio {
@@ -283,6 +291,13 @@ div.photos {
     max-width: 675px;
     display: block;
     margin: auto;
+}
+
+.show {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
 }
 
 div#tropa {
