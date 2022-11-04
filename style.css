@@ -284,6 +284,8 @@ div.photos {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 #apoio {
