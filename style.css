@@ -384,6 +384,9 @@ div.result {
     background-color: #20aa20;
 }
 
+#map {
+    max-width: 100%;
+}
 /* --------------*/
 
 /* ------- button -------*/
