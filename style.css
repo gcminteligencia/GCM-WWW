@@ -476,6 +476,11 @@ a {
     text-decoration: none;
 }
 
+a.news {
+    text-decoration: none;
+    color: var(--colour04);
+}
+
 a.service {
     text-decoration: none;
     color: #000000;
