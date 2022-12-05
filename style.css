@@ -167,6 +167,24 @@ a.news {
     color: var(--colour05);
 }
 
+#news01 {
+    background-image: url(images/news/thumb/aeroporto.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news02 {
+    background-image: url(images/news/thumb/patrução.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news06 {
+    background-image: url(images/news/thumb/infiltração.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 /* -------------- */
 
 /* ------- Services -------*/
