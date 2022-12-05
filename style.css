@@ -167,6 +167,42 @@ a.news {
     color: var(--colour05);
 }
 
+#news01 {
+    background-image: url(images/news/thumb/aeroporto.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news02 {
+    background-image: url(images/news/thumb/patrução.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news03 {
+    background-image: url(images/news/thumb/palestra-donclemente.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news04 {
+    background-image: url(images/news/thumb/palestra-ulisses.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news05 {
+    background-image: url(images/news/thumb/palestra-godin.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#news06 {
+    background-image: url(images/news/thumb/infiltração.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 /* -------------- */
 
 /* ------- Services -------*/
@@ -474,6 +510,11 @@ input.txt {
 
 a {
     text-decoration: none;
+}
+
+a.news {
+    text-decoration: none;
+    color: var(--colour04);
 }
 
 a.service {
