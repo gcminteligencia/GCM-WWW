@@ -158,13 +158,19 @@ div.news {
 }
 
 h3.news {
+    color: #ff0000;
     text-align: right;
     font-weight: bolder;
     margin: 5px;
 }
 
 a.news {
-    color: var(--colour05);
+    color: #ff0000;
+}
+
+a.news:hover {
+    color: var(--colour04);
+
 }
 
 #news01 {
@@ -510,11 +516,6 @@ input.txt {
 
 a {
     text-decoration: none;
-}
-
-a.news {
-    text-decoration: none;
-    color: var(--colour04);
 }
 
 a.service {
