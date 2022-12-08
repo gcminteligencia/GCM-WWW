@@ -158,13 +158,19 @@ div.news {
 }
 
 h3.news {
+    color: #ff0000;
     text-align: right;
     font-weight: bolder;
     margin: 5px;
 }
 
 a.news {
-    color: var(--colour05);
+    color: var(--colour04);
+}
+
+#morenews:hover {
+    color: #ff0000;
+
 }
 
 #news01 {
