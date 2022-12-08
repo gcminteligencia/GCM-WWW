@@ -404,7 +404,7 @@ div#canil {
 }
 
 
-img#bo {
+img.logo {
     display: block;
     margin: auto;
     padding: 20px;
