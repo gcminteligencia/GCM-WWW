@@ -119,8 +119,8 @@ footer p {
 /* ------- News -------*/
 
 section.news {
+    min-height: 450px;
     min-width: 300px;
-    min-height: 500px;
     margin: 0px;
     padding: 15px;
     background-image: url(images/photos/12.jpg);
