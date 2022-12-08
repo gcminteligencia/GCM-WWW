@@ -165,11 +165,11 @@ h3.news {
 }
 
 a.news {
-    color: var(--colour04);
+    color: #ff0000;
 }
 
-#morenews:hover {
-    color: #ff0000;
+a.news:hover {
+    color: var(--colour04);
 
 }
 
@@ -516,11 +516,6 @@ input.txt {
 
 a {
     text-decoration: none;
-}
-
-a.news {
-    text-decoration: none;
-    color: var(--colour04);
 }
 
 a.service {
