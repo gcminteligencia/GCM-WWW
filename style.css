@@ -288,6 +288,22 @@ div#q6 {
     background-size: 100%;
 }
 
+div#q7 {
+    background-image: url(images/new-images/normal/7.1.jpg);
+    background-size: 100%;
+}
+
+div#q8 {
+    background-image: url(images/new-images/normal/8.1.jpg);
+    background-size: 100%;
+}
+
+div#q9 {
+    background-image: url(images/new-images/normal/9.1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
 /* -------------- */
 
 /* ------- Superintendencia -------*/
