@@ -27,6 +27,24 @@
             <p>A Divisão de Ensino da  GMA de Altamira, é um departamento destinado a capacitação e formação de profissionais para o cumprimento de dever legal, e realização de palestras educacionais.</p>
             <h2>Solicitação de Palestras</h2>
             <form action="cad.php" method="post">
+                <fieldset>
+                    <legend>Formulário do requerente</legend>
+                    <p>
+                        <label for="iSchool">Nome da escola</label>
+                        <input type="text" name="nSchool" id="iSchool">
+                    </p>
+                    <p>
+                        Tema disponíveis para o mês
+                    </p>
+                    <p>
+                        <input type="radio" name="theme" id="seg">
+                        <label for="seg">Segurança Pública na Escola</label>
+                        <input type="radio" name="theme" id="patrimon">
+                        <label for="patrimon">Patrimônio Púbico</label>
+                        <input type="radio" name="theme" id="fanto">
+                        <label for="fanto">Teatro de Fantoches</label>
+                    </p>
+                </fieldset>
                 <p>
                     A <input type="text" name="nSchool" id="iSchool" placeholder="Nome da Escola" size="20">, Solicita palestra da Divisão de Ensino da Guarda Municipal de Altamira, para realizar a palestra sobre <input type="text" name="nPalestra" id="iPalestra" placeholder="Tema Sugerido"> no dia <input type="date" name="nData" id="iData" placeholder="Ver datas disponíveis">, no turno <input type="text" name="nTurno" id="iTurno" placeholder="Manhã/Tarde">, com as turmas <input type="text" name="nTurma" id="iTurma" placeholder="Ex: 5° ano, 6°ano">. Aguardo retorno no número <input type="tel" name="nPhone" id="iPhone" placeholder="(93)xxxx-xxxx">, falar com <input type="text" name="nNome" id="nNome">.
                 </p>
