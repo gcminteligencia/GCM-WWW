@@ -26,12 +26,12 @@
             <img src="../images/logo/logo-divensino/div-en-100h.png" alt="" class="logo">
             <p>A Divisão de Ensino da  GMA de Altamira, é um departamento destinado a capacitação e formação de profissionais para o cumprimento de dever legal, e realização de palestras educacionais.</p>
             <h2>Solicitação de Palestras</h2>
-            <form action="cad.php" method="post">
+            <form action="cad.php" method="post" autocomplete="on">
                 <fieldset>
                     <legend>Formulário do requerente</legend>
                     <p class="form">
                         <label for="iSchool">Nome da escola:</label>
-                        <input type="text" name="nSchool" id="iSchool">
+                        <input type="text" name="nSchool" id="iSchool" placeholder="Ex: Maria de Mattias">
                     </p>
                     <p class="form">
                         Tema disponíveis para o mês:
@@ -46,7 +46,11 @@
                     </p>
                     <p class="form">
                         <label for="iDate">Data</label>
-                        <input type="date" name="nDate" id="iDate">
+                        <input type="date" name="nDate" id="iDate" required>
+                    </p>
+                    <p class="form">
+                        <label for="iClass">Turmas:</label>
+                        <input type="text" name="nClass" id="iClass" placeholder="Ex: 5° ano, 6° ano">
                     </p>
                     <p class="form">
                         Turno:
@@ -59,11 +63,16 @@
                     </p>
                     <p class="form">
                         <label for="iPhone">Número para contato:</label>
-                        <input type="tel" name="nPhone" id="iPhone" placeholder="(41)99100-0000">
+                        <input type="tel" name="nPhone" id="iPhone" placeholder="Ex: (41)99100-0000" required>
+                    </p>
+                    <p class="form">
+                        <label for="iName">Nome do solicitante:</label>
+                        <input type="text" name="nName" id="iName" placeholder="Seu nome">
                     </p>
                 </fieldset>
-                <p>
-                    A <input type="text" name="nSchool" id="iSchool" placeholder="Nome da Escola" size="20">, Solicita palestra da Divisão de Ensino da Guarda Municipal de Altamira, para realizar a palestra sobre <input type="text" name="nPalestra" id="iPalestra" placeholder="Tema Sugerido"> no dia <input type="date" name="nData" id="iData" placeholder="Ver datas disponíveis">, no turno <input type="text" name="nTurno" id="iTurno" placeholder="Manhã/Tarde">, com as turmas <input type="text" name="nTurma" id="iTurma" placeholder="Ex: 5° ano, 6°ano">. Aguardo retorno no número <input type="tel" name="nPhone" id="iPhone" placeholder="(93)xxxx-xxxx">, falar com <input type="text" name="nNome" id="nNome">.
+                <p class="form">
+                    <input type="button" value="Enviar Formulário">
+                    <input type="reset" value="Limpar dados">
                 </p>
             </form>
         </section>
