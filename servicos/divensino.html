@@ -29,20 +29,37 @@
             <form action="cad.php" method="post">
                 <fieldset>
                     <legend>Formulário do requerente</legend>
-                    <p>
-                        <label for="iSchool">Nome da escola</label>
+                    <p class="form">
+                        <label for="iSchool">Nome da escola:</label>
                         <input type="text" name="nSchool" id="iSchool">
                     </p>
-                    <p>
-                        Tema disponíveis para o mês
+                    <p class="form">
+                        Tema disponíveis para o mês:
                     </p>
-                    <p>
-                        <input type="radio" name="theme" id="seg">
+                    <p class="form">
+                        <input type="radio" name="theme" id="seg" checked>
                         <label for="seg">Segurança Pública na Escola</label>
                         <input type="radio" name="theme" id="patrimon">
                         <label for="patrimon">Patrimônio Púbico</label>
                         <input type="radio" name="theme" id="fanto">
                         <label for="fanto">Teatro de Fantoches</label>
+                    </p>
+                    <p class="form">
+                        <label for="iDate">Data</label>
+                        <input type="date" name="nDate" id="iDate">
+                    </p>
+                    <p class="form">
+                        Turno:
+                    </p>
+                    <p class="form">
+                        <input type="radio" name="shift" id="morning" checked>
+                        <label for="morning">Manhã</label>
+                        <input type="radio" name="shift" id="afternoon">
+                        <label for="afternoon">Tarde</label>
+                    </p>
+                    <p class="form">
+                        <label for="iPhone">Número para contato:</label>
+                        <input type="tel" name="nPhone" id="iPhone" placeholder="(41)99100-0000">
                     </p>
                 </fieldset>
                 <p>

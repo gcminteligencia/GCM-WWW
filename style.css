@@ -512,6 +512,14 @@ p.txt {
     line-height: 40px;
 }
 
+p.form {
+    font-size: 16px;
+    text-indent: none;
+    text-align: left;
+    padding: 10px;
+    
+}
+
 strong.attention {
     color: var(--colour04);
 }
