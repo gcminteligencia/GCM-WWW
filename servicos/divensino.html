@@ -17,12 +17,64 @@
         <a href="../index.html">Home</a>
         <a href="../pages/pg002-gale.html">Galeria</a>
         <a href="../pages/pg003-super.html">Superintendente</a>
-        <a href="../pages/pg004-bo.html">BO</a>
+        <a href="../pages/pg004-bo.html">Intranet</a>
         <a href="../pages/pg005-about.html">Sobre</a>
     </nav>
     <main>
         <section class="main">
             <h2>Divisão de Ensino</h2>
+            <img src="../images/logo/logo-divensino/div-en-100h.png" alt="" class="logo">
+            <p>A Divisão de Ensino da  GMA de Altamira, é um departamento destinado a capacitação e formação de profissionais para o cumprimento de dever legal, e realização de palestras educacionais.</p>
+            <h2>Solicitação de Palestras</h2>
+            <form action="cad.php" method="get" autocomplete="on">
+                <fieldset>
+                    <legend>Formulário do requerente</legend>
+                    <p class="form">
+                        <label for="iSchool">Nome da escola:</label>
+                        <input type="text" name="nSchool" id="iSchool" placeholder="Ex: Maria de Mattias" required>
+                    </p>
+                    <p class="form">
+                        Tema disponíveis para o mês:
+                    </p>
+                    <p class="form">
+                        <input type="radio" name="theme" id="seg" value="Segurança Pública na escola" checked>
+                        <label for="seg">Segurança Pública na Escola</label>
+                        <input type="radio" name="theme" id="patrimon" value="Patrimônio Público">
+                        <label for="patrimon">Patrimônio Púbico</label>
+                        <input type="radio" name="theme" id="fanto" value="Teatro de Fantoches">
+                        <label for="fanto">Teatro de Fantoches</label>
+                    </p>
+                    <p class="form">
+                        <label for="iDate">Data</label>
+                        <input type="date" name="nDate" id="iDate" required>
+                    </p>
+                    <p class="form">
+                        <label for="iClass">Turmas:</label>
+                        <input type="text" name="nClass" id="iClass" placeholder="Ex: 5° ano, 6° ano">
+                    </p>
+                    <p class="form">
+                        Turno:
+                    </p>
+                    <p class="form">
+                        <input type="radio" name="shift" id="morning" value="Manhã" checked>
+                        <label for="morning">Manhã</label>
+                        <input type="radio" name="shift" id="afternoon" value="Tarde">
+                        <label for="afternoon">Tarde</label>
+                    </p>
+                    <p class="form">
+                        <label for="iPhone">Número para contato:</label>
+                        <input type="tel" name="nPhone" id="iPhone" placeholder="Ex: (41)99100-0000" required>
+                    </p>
+                    <p class="form">
+                        <label for="iName">Nome do solicitante:</label>
+                        <input type="text" name="nName" id="iName" placeholder="Seu nome">
+                    </p>
+                </fieldset>
+                <p class="form">
+                    <input type="submit" value="Enviar Formulário" onclick="formDivisao()">
+                    <input type="reset" value="Limpar dados">
+                </p>
+            </form>
         </section>
     </main>
     <footer>
