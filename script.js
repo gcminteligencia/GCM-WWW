@@ -6,24 +6,11 @@ function titleFlex(){
         name.innerHTML = `GCM`
 }
 
-function metadata(){
-    var name = window.document.querySelector('input#name')
-    var cpf = window.document.querySelector('input#cpf')
-    var contact = window.document.querySelector('input#contact')
-    var email = window.document.querySelector('input#email')
-    var service = window.document.getElementsByName('typeaten')
-    var result = window.document.querySelector('div.result')
-    var error = window.document.querySelector('div.error')
+function formDivisao(){
+    let school = window.document.querySelector('input#iSchool')
+    let theme = window.focument.getElementByName('theme')
 
-    if (name.value <= 3){
-        window.alert('Atenção, digite um nome válido.')
-    }
 
-    if (name.value.length >= 3 && cpf.value.length >= 11 && service.value != undefined){
-        result.innerHTML = `Parabéns Sr(a) ${name.value}, portador do CPF/CNPJ ${cpf.value}, do contato ${contact.value} e do email ${email.value} sua ocorrência foi registrada com sucesso para atender os serviços: ${service.value}. Tenha um bom dia.`
-    }else {
-        window.alert('Atenção, preencha todos os dados antes de enviar.')
-    }
 }
-
+window.alert(`Hello, ${school.value}!`)
 /* A "Nome da Escola", Solicita palestra da Divisão de Ensino da Guarda Municipal de Altamira, para realizar a palestra sobre "Tema Sugerido" no dia "Ver datas disponíveis", no turno "Manhã/Tarde", com as turmas "Ex: 5° ano, 6°ano". Aguardo retorno no número "(93)xxxx-xxxx", falar com "Nome do requerente"*/

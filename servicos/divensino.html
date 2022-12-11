@@ -26,22 +26,22 @@
             <img src="../images/logo/logo-divensino/div-en-100h.png" alt="" class="logo">
             <p>A Divisão de Ensino da  GMA de Altamira, é um departamento destinado a capacitação e formação de profissionais para o cumprimento de dever legal, e realização de palestras educacionais.</p>
             <h2>Solicitação de Palestras</h2>
-            <form action="cad.php" method="post" autocomplete="on">
+            <form action="cad.php" method="get" autocomplete="on">
                 <fieldset>
                     <legend>Formulário do requerente</legend>
                     <p class="form">
                         <label for="iSchool">Nome da escola:</label>
-                        <input type="text" name="nSchool" id="iSchool" placeholder="Ex: Maria de Mattias">
+                        <input type="text" name="nSchool" id="iSchool" placeholder="Ex: Maria de Mattias" required>
                     </p>
                     <p class="form">
                         Tema disponíveis para o mês:
                     </p>
                     <p class="form">
-                        <input type="radio" name="theme" id="seg" checked>
+                        <input type="radio" name="theme" id="seg" value="Segurança Pública na escola" checked>
                         <label for="seg">Segurança Pública na Escola</label>
-                        <input type="radio" name="theme" id="patrimon">
+                        <input type="radio" name="theme" id="patrimon" value="Patrimônio Público">
                         <label for="patrimon">Patrimônio Púbico</label>
-                        <input type="radio" name="theme" id="fanto">
+                        <input type="radio" name="theme" id="fanto" value="Teatro de Fantoches">
                         <label for="fanto">Teatro de Fantoches</label>
                     </p>
                     <p class="form">
@@ -71,7 +71,7 @@
                     </p>
                 </fieldset>
                 <p class="form">
-                    <input type="button" value="Enviar Formulário">
+                    <input type="submit" value="Enviar Formulário" onclick="formDivisao()">
                     <input type="reset" value="Limpar dados">
                 </p>
             </form>
