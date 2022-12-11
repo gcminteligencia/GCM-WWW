@@ -9,7 +9,7 @@
 
 :root {
     --colour00: #000000; /* Black */
-    --colour01: #266DD3; /* Celtic blue */
+    --colour01: #0034df; /* Celtic blue */
     --colour03: #303030; /* */
     --colour04: #B80C09; /* Internatioanl */
     --colour05: #F7F7FF; /* Ghost white */
@@ -223,6 +223,7 @@ div.box {
     height: 180px;
     width: 300px;
     margin: 5px;
+    border-radius: 10px;
     background-color: #000000;
     border: 2px solid #000000;
 }
