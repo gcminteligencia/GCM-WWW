@@ -65,6 +65,7 @@ menu#options {
 }
 
 menu a {
+    font-size: 18px;
     font-weight: bolder;
     color: var(--colour00);
 }
@@ -191,8 +192,6 @@ div.slides {
     background-color: #00000000;
     min-height: 350px;
     max-width: 600px;
-
-
 }
 
 div#gcmprf {

@@ -63,3 +63,13 @@ h1#half {
 }
 
 /* --------------*/
+
+/* ------- News -------*/
+
+div.slides {
+    background-color: #00000000;
+    min-height: 400px;
+    max-width: 630px;
+}
+
+/* --------------*/
