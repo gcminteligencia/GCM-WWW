@@ -65,13 +65,15 @@ menu#options {
 }
 
 menu a {
-    color: var(--colour0);
+    font-weight: bolder;
+    color: var(--colour00);
 }
 
 menu li:hover {
     color: var(--colour05);
     background-color: var(--colour01);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 span#mBurguer {
