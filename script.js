@@ -15,11 +15,14 @@ function formDivisao(){
 
 function showMenu() {
     menu = window.document.querySelector('menu#options')
+    icon = window.document.querySelector('span#mBurguer')
 
     if (menu.style.display == 'block'){
         menu.style.display = 'none'
+        icon.innerHTML = 'menu'
     }else {
         menu.style.display = 'block'
+        icon.innerHTML = 'menu_open'
     }
 }
 
