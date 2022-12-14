@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*------- DESKTOP -------*/
+
 /* MENU */
 
 header {
@@ -41,6 +43,7 @@ span#mBurguer {
 /* ------- TXT -------*/
 
 h1#full {
+    font-size: 1.9em;
     display: block;
 }
 
@@ -48,4 +51,4 @@ h1#half {
     display: none;
 }
 
-/* -------------- */
+/* --------------*/

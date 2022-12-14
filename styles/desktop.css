@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*------- DESKTOP -------*/
+
+/* ------- TXT -------*/
+
+h1#full {
+    display: block;
+}
+
+h1#half {
+    display: none;
+}
+
+/* -------------- */

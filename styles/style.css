@@ -60,6 +60,10 @@ li {
     padding: 10px;
 }
 
+menu#options {
+    display: none;
+}
+
 menu a {
     color: var(--colour05);
 }
@@ -72,10 +76,12 @@ menu li:hover {
 span#mBurguer {
     text-align: center;
     display: block;
-    color: var(--colour01);
+    background-color: var(--colour00);
+    color: var(--colour05);
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
+    border: 2px solid var(--colour05);
 }
 
 /* --------------*/
@@ -528,6 +534,7 @@ h1#full {
 }
 
 h1#half {
+    font-size: 2.5em;
     display: block;
 }
 
