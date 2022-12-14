@@ -1,6 +1,6 @@
 function titleFlex(){
     var name = window.document.querySelector('h1#main')
-    var width = window.document.body.clientWidth
+    var width = window.innerWidth
     
     if (width <= 700)
         name.innerHTML = `GCM`
