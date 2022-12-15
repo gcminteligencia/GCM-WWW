@@ -27,7 +27,7 @@ menu a {
 }
 
 menu li:hover {
-    background-color: var(--colour01);
+    background-color: var(--colour04);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -43,7 +43,7 @@ menu#options {
 span#mBurguer {
     text-align: center;
     display: none;
-    color: var(--colour01);
+    color: var(--colour04);
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
