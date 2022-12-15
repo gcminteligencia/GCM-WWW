@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*------- DESKTOP -------*/
+
+/* MENU */
+
+header {
+    text-align: left;
+    background-color: var(--colour00);
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    background-color: var(--colour00);
+    border: 1px solid var(--colour00);
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+menu a {
+    color: var(--colour05);
+}
+
+menu li:hover {
+    background-color: var(--colour01);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+menu#options {
+    background-color: var(--colour00);
+    display: block;
+    border: 1px solid var(--colour05);
+    border-radius: 10px;
+    margin: 0px;
+}
+
+span#mBurguer {
+    text-align: center;
+    display: none;
+    color: var(--colour01);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* --------------*/
+
+/* ------- TXT -------*/
+
+h1#full {
+    font-size: 1.9em;
+    display: block;
+}
+
+h1#half {
+    display: none;
+}
+
+/* --------------*/
+
+/* ------- News -------*/
+
+div.slides {
+    background-color: #00000000;
+    min-height: 400px;
+    max-width: 630px;
+}
+
+/* --------------*/
