@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCM</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/style.css" media="screen">
+    <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="../styles/tv.css" media="screen and (min-width: 1200px)">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
 </head>
-<body onload="titleFlex()">
+<body>
     <header>
         <img src="../images/logo/logo-gcm-02/logo-100h.png" id="logo" alt="GCM">
-        <h1 id="main">Guarda Civil Municipal</h1>
+        <h1 class="main" id="half">GCM</h1>
+        <h1 class="main" id="full">Guarda Civil Municipal</h1>
     </header>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../pages/pg002-gale.html">Galeria</a>
-        <a href="../pages/pg003-super.html">Superintendente</a>
-        <a href="../pages/pg004-bo.html">Intranet</a>
-        <a href="../pages/pg005-about.html">Sobre</a>
-    </nav>
+    <span class="material-icons" id="mBurguer" onclick="showMenu()">menu</span>
+    <menu id="options">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="../pages/pg002-gale.html"><li>Galeria</li></a>
+            <a href="../pages/pg003-super.html"><li>Superintendente</li></a>
+            <a href="../pages/pg004-bo.html"><li>Intranet</li></a>
+            <a href="../pages/pg005-about.html"><li>Sobre</li></a>
+        </ul>
+    </menu>
     <main>
         <section class="main">
             <h2>Divisão de Ensino</h2>
@@ -50,7 +58,18 @@
                     </p>
                     <p class="form">
                         <label for="iClass">Turmas:</label>
-                        <input type="text" name="nClass" id="iClass" placeholder="Ex: 5° ano, 6° ano">
+                        <input type="checkbox" name="n4ano" id="i4ano">
+                        <label for="i4ano">4° ano</label>
+                        <input type="checkbox" name="n5ano" id="i5ano">
+                        <label for="i5ano">5° ano</label>
+                        <input type="checkbox" name="n6ano" id="i6ano">
+                        <label for="i6ano">6° ano</label>
+                        <input type="checkbox" name="n7ano" id="i7ano">
+                        <label for="i7ano">7° ano</label>
+                        <input type="checkbox" name="n8ano" id="i8ano">
+                        <label for="i8ano">8° ano</label>
+                        <input type="checkbox" name="n9ano" id="i9ano">
+                        <label for="i9ano">9° ano</label>
                     </p>
                     <p class="form">
                         Turno:
