@@ -40,7 +40,7 @@ main {
 }
 
 section#login {
-    background-color: var(--colour03);
+    background-color: var(--colour00);
     width: 290px;
     margin: auto;
     position: absolute;
@@ -56,7 +56,7 @@ section#login {
 }
 
 div#image {
-    background-image: url(../images/pexels-giallo-859890\ copy.jpg);
+    background-image: url(../images/pexels-matheus-viana-5385898.jpg);
     display: block;
     height: 220px;
     width: 290px;
@@ -64,7 +64,8 @@ div#image {
 }
 
 div#form {
-    color: var(--colour06);
+    background-color: var(--colour06);
+    color: var(--colour00);
     display: block;
     height: 275px;
     padding: 7px;
@@ -79,7 +80,7 @@ p {
 }
 
 div.pInput {
-    background-color: var(--colour08);
+    background-color: var(--colour01);
     padding: 0px;
     margin: 4px;
     border-radius: 20px;
@@ -108,7 +109,7 @@ input.button {
 
 input.button:hover {
     color: var(--colour06);
-    background-color: var(--colour07);
+    background-color: var(--colour03);
     transition: 0.3s;
     cursor: pointer;
 }
@@ -121,7 +122,7 @@ a.button {
     display: block;
     text-align: center;
     text-decoration: none;
-    background-color: var(--colour08);
+    background-color: var(--colour01);
     color: var(--colour06);
     padding: 7px;
     border-radius: 40px;
@@ -130,7 +131,7 @@ a.button {
 
 a.button:hover {
     color: var(--colour06);
-    background-color: var(--colour07);
+    background-color: var(--colour03);
     cursor: pointer;
     transition: 0.3s;
 } 
@@ -152,4 +153,8 @@ input.campus {
 
 input.campus:focus-within {
     background-color: #ffffff;
+}
+
+span#icon {
+    color: var(--colour03);
 }
