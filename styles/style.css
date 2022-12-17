@@ -599,6 +599,25 @@ input.txt {
     padding: 4px 5px 4px 5px;
 }
 
+div.classes {
+    margin-top: 30px;
+    display: inline-block;
+    text-indent: 30px;
+}
+
+/* -------------- */
+
+/* ------- Ofício -------*/
+
+legend.of-div {
+    transform: translateY(-23px);
+}
+
+img.legend {
+    transform: translatey(23px);
+    margin: 5px;
+}
+
 /* -------------- */
 
 /* ------- Link -------*/

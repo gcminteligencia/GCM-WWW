@@ -24,7 +24,7 @@
             <a href="../index.html"><li>Home</li></a>
             <a href="../pages/pg002-gale.html"><li>Galeria</li></a>
             <a href="../pages/pg003-super.html"><li>Superintendente</li></a>
-            <a href="../pages/pg004-bo.html"><li>Intranet</li></a>
+            <a href="../pages/pg004-intranet.html"><li>Intranet</li></a>
             <a href="../pages/pg005-about.html"><li>Sobre</li></a>
         </ul>
     </menu>
@@ -36,43 +36,61 @@
             <h2>Solicitação de Palestras</h2>
             <form action="cad.php" method="get" autocomplete="on">
                 <fieldset>
-                    <legend>Formulário do requerente</legend>
+                    <legend class="of-div"><img src="../images/logo/logo-divensino/div-en-50h.png" alt="div-ensino" class="legend">Formulário do requerente</legend>
                     <p class="form">
-                        <label for="iSchool">Nome da escola:</label>
+                        <label for="iSchool"><strong>Nome da escola:</strong></label>
                         <input type="text" name="nSchool" id="iSchool" placeholder="Ex: Maria de Mattias" required>
                     </p>
                     <p class="form">
-                        Tema disponíveis para o mês:
+                        <strong>Tema disponíveis para o mês:</strong>
                     </p>
                     <p class="form">
-                        <input type="radio" name="theme" id="seg" value="Segurança Pública na escola" checked>
-                        <label for="seg">Segurança Pública na Escola</label>
-                        <input type="radio" name="theme" id="patrimon" value="Patrimônio Público">
-                        <label for="patrimon">Patrimônio Púbico</label>
-                        <input type="radio" name="theme" id="fanto" value="Teatro de Fantoches">
-                        <label for="fanto">Teatro de Fantoches</label>
+                        <div class="classes">
+                            <input type="radio" name="theme" id="seg" value="Segurança Pública na escola" checked>
+                            <label for="seg">Segurança Pública na Escola</label>
+                        </div><br>
+                        <div class="classes">
+                            <input type="radio" name="theme" id="patrimon" value="Patrimônio Público">
+                            <label for="patrimon">Patrimônio Púbico</label>
+                        </div><br>
+                        <div class="classes">
+                            <input type="radio" name="theme" id="fanto" value="Teatro de Fantoches">
+                            <label for="fanto">Teatro de Fantoches</label>
+                        </div>
                     </p>
                     <p class="form">
-                        <label for="iDate">Data</label>
+                        <label for="iDate"><strong>Data:</strong></label>
                         <input type="date" name="nDate" id="iDate" required>
                     </p>
                     <p class="form">
-                        <label for="iClass">Turmas:</label>
-                        <input type="checkbox" name="n4ano" id="i4ano">
-                        <label for="i4ano">4° ano</label>
-                        <input type="checkbox" name="n5ano" id="i5ano">
-                        <label for="i5ano">5° ano</label>
-                        <input type="checkbox" name="n6ano" id="i6ano">
-                        <label for="i6ano">6° ano</label>
-                        <input type="checkbox" name="n7ano" id="i7ano">
-                        <label for="i7ano">7° ano</label>
-                        <input type="checkbox" name="n8ano" id="i8ano">
-                        <label for="i8ano">8° ano</label>
-                        <input type="checkbox" name="n9ano" id="i9ano">
-                        <label for="i9ano">9° ano</label>
+                        <label for="iClass"><strong>Turmas:</strong></label>
+                        <div class="classes">
+                            <input type="checkbox" name="n4ano" id="i4ano">
+                            <label for="i4ano">4° ano</label>
+                        </div>
+                        <div class="classes">
+                            <input type="checkbox" name="n5ano" id="i5ano">
+                            <label for="i5ano">5° ano</label>
+                        </div>
+                        <div class="classes">
+                            <input type="checkbox" name="n6ano" id="i6ano">
+                            <label for="i6ano">6° ano</label>
+                        </div>
+                        <div class="classes">
+                            <input type="checkbox" name="n7ano" id="i7ano">
+                            <label for="i7ano">7° ano</label>
+                        </div>
+                        <div class="classes">
+                            <input type="checkbox" name="n8ano" id="i8ano">
+                            <label for="i8ano">8° ano</label>
+                        </div>
+                        <div class="classes">
+                            <input type="checkbox" name="n9ano" id="i9ano">
+                            <label for="i9ano">9° ano</label>
+                        </div>
                     </p>
                     <p class="form">
-                        Turno:
+                        <strong>Turno:</strong>
                     </p>
                     <p class="form">
                         <input type="radio" name="shift" id="morning" value="Manhã" checked>
@@ -81,11 +99,11 @@
                         <label for="afternoon">Tarde</label>
                     </p>
                     <p class="form">
-                        <label for="iPhone">Número para contato:</label>
+                        <label for="iPhone"><strong><strong>Número para contato:</strong></strong></label>
                         <input type="tel" name="nPhone" id="iPhone" placeholder="Ex: (41)99100-0000" required>
                     </p>
                     <p class="form">
-                        <label for="iName">Nome do solicitante:</label>
+                        <label for="iName"><strong><strong>Nome do solicitante:</strong></strong></label>
                         <input type="text" name="nName" id="iName" placeholder="Seu nome">
                     </p>
                 </fieldset>
