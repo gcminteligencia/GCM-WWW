@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left, var(--colour06), var(--colour01));
+}
+
+section#login {
+    width: 80vw;
+    height: 400px;
+}
+
+div#image {
+    float: left;
+    height: 100%;
+    width: 30%;
+    transition: width 0.7s;
+    transition-timing-function: ease;
+}
+
+div#form {
+    float: right;
+    height: 490px;
+    width: 70%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+}
