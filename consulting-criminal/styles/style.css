@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+
+/*------- Mobile First -------*/
+
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+tv screen: min 1200px
+*/
+
+:root {
+    --colour00: #131515; /*Eerie black*/
+    --colour01: #2B2C28; /*Jet*/
+    --colour02: #BFB5AF; /*Pale silver*/
+    --colour03: #DE1A1A; /*Maximum red*/
+    --colour06: #FFFAFB; /*Snow*/
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--colour06) ;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    background-color: var(--colour03);
+    width: 290px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 7px #0000007a;
+    transition: width 0.7s, height 0.7s;
+    transition-timing-function: ease;
+    
+}
+
+div#image {
+    background-image: url(../images/pexels-giallo-859890\ copy.jpg);
+    display: block;
+    height: 220px;
+    width: 290px;
+    background-size: cover;
+}
+
+div#form {
+    color: var(--colour06);
+    display: block;
+    height: 275px;
+    padding: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 7px;
+}
+
+div.pInput {
+    background-color: var(--colour08);
+    padding: 0px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+div.button {
+    text-align: left;
+}
+
+input {
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 40px;
+}
+
+input.button {
+    background-color: var(--colour06);
+    color: var(--colour08);
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    margin: 0px;
+}
+
+input.button:hover {
+    color: var(--colour06);
+    background-color: var(--colour07);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+div#form label {
+    display: none;
+}
+
+a.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--colour08);
+    color: var(--colour06);
+    padding: 7px;
+    border-radius: 40px;
+    margin: 5px 0px;
+}
+
+a.button:hover {
+    color: var(--colour06);
+    background-color: var(--colour07);
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+div.pInput span {
+    /*background-color: #000000;*/
+    font-size: 1.5em;
+    width: 40px;
+    padding: 5px;
+}
+
+input.campus {
+    background-color: var(--colour06);
+    width: calc(100% - 45px);
+    transform: translateY(-2px);
+    height: 100%;
+    padding: 7px;
+}
+
+input.campus:focus-within {
+    background-color: #ffffff;
+}
