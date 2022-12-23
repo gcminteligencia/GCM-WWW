@@ -31,5 +31,24 @@ function keepMenu(){
     }
 }
 
+function formDivisao(){
+    let result = window.document.querySelector('div#result')
+    let school = window.document.querySelector('input#iSchool')
+    let theme = window.document.getElementsByName('theme')
+    let date = window.document.querySelector('input#iDate')
 
-/* A "Nome da Escola", Solicita palestra da Divisão de Ensino da Guarda Municipal de Altamira, para realizar a palestra sobre "Tema Sugerido" no dia "Ver datas disponíveis", no turno "Manhã/Tarde", com as turmas "Ex: 5° ano, 6°ano". Aguardo retorno no número "(93)xxxx-xxxx", falar com "Nome do requerente"*/
+    const bigdate = new Date()
+    year = bigdate.getFullYear()
+    month = bigdate.getMonth() + 1
+    day = bigdate.getDay()
+
+    if (result.style.display == 'block'){
+        result.style.display = 'none'
+
+    }else{
+        result.style.display = 'block'
+
+    }
+
+    result.innerHTML = `O colégio <strong>${school.value}</strong>, Solicita palestra da Divisão de Ensino da Guarda Municipal de Altamira, para realizar a palestra sobre <strong>${theme[0].value}</strong> no dia <strong>${date.value}</strong>"Ver datas disponíveis", no turno <strong>"Manhã/Tarde"</strong>, com as turmas "Ex: 5° ano, 6°ano". Aguardo retorno no número "(93)xxxx-xxxx", falar com "Nome do requerente ${year} ${month} ${day}`
+}
