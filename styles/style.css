@@ -546,6 +546,7 @@ h2 {
 }
 
 h2.alt {
+    font-size: 1.0em;
     color: var(--colour05);
 }
 
