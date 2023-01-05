@@ -465,6 +465,11 @@ div.result {
     background-color: #20aa20;
 }
 
+div.valid {
+    background-color: rgb(175, 175, 175);
+    margin-bottom: 10px;
+}
+
 #map {
     max-width: 100%;
 }
