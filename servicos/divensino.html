@@ -31,7 +31,7 @@
     <main>
         <section class="main">
             <h2>Divisão de Ensino</h2>
-            <img src="../images/logo/logo-divensino/div-en-100h.png" alt="" class="logo">
+            <img src="../images/logo/logo-divensino/div-en-100h.png" alt="logo da divisão de ensino" class="logo">
             <p>A Divisão de Ensino da  GMA de Altamira, é um departamento destinado a capacitação e formação de profissionais para o cumprimento de dever legal, e realização de palestras educacionais.</p>
             <h2>Solicitação de Palestras</h2>
             <form action="cad.php" method="get" autocomplete="on">
@@ -97,6 +97,8 @@
                         <label for="morning">Manhã</label>
                         <input type="radio" name="shift" id="afternoon" value="Tarde">
                         <label for="afternoon">Tarde</label>
+                        <input type="radio" name="shift" id="both" value="Manhã/Tarde">
+                        <label for="both">Manhã/Tarde</label>
                     </p>
                     <p class="form">
                         <label for="iPhone"><strong><strong>Número para contato:</strong></strong></label>
@@ -108,10 +110,13 @@
                     </p>
                 </fieldset>
                 <p class="form">
-                    <input type="submit" value="Enviar Formulário" onclick="formDivisao()">
+                    <input type="button" value="Gerar Formulário" onclick="formDivisao()">
                     <input type="reset" value="Limpar dados">
                 </p>
             </form>
+            <div id="result">
+                ...
+            </div>
         </section>
     </main>
     <footer>
