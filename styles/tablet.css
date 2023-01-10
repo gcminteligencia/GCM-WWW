@@ -79,3 +79,10 @@ div.slides {
 }
 
 /* --------------*/
+
+img#segmuc {
+    width: 40vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}

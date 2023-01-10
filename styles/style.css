@@ -438,6 +438,13 @@ img.logo {
     padding: 20px;
 }
 
+img#segmuc {
+    width: 70vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
 img.photo {
     width: 100%;
 }
@@ -473,6 +480,7 @@ div.result {
 div.valid {
     background-color: rgb(175, 175, 175);
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 #map {
