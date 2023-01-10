@@ -73,7 +73,7 @@ menu a {
 
 menu li:hover {
     color: var(--colour05);
-    background-color: var(--colour04);
+    background-color: var(--colour02);
     cursor: pointer;
     transition: 0.2s;
 }
