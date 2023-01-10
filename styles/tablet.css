@@ -27,7 +27,7 @@ menu a {
 }
 
 menu li:hover {
-    background-color: var(--colour04);
+    background-color: var(--colour01);
     border-radius: 10px;
     cursor: pointer;
 }
