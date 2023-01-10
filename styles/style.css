@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @font-face {
+    font-family: "fb";
+    src: url(../font/fb.ttf);
+}
+
+@font-face {
     font-family: "modern";
     src: url(../font/xirod.ttf);
 }
@@ -529,13 +534,14 @@ div#on {
 
 h1.main {
     color: var(--colour05);
-    font-family: "modern", Arial, Helvetica, sans-serif;
+    font-family: "fb", Arial, Helvetica, sans-serif;
     text-shadow: 2px 0px 5px var(--colour03), -2px 0px 5px var(--colour03), 0px 2px 5px var(--colour03), 0px -2px 5px #000000;
     text-align: left;
     padding: 50px;
 }
 
 h1#full {
+    font-size: 4em;
     display: none;
 }
 
