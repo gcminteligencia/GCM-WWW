@@ -477,12 +477,6 @@ div.result {
     background-color: #20aa20;
 }
 
-div.valid {
-    background-color: #afafafa1;
-    margin-bottom: 10px;
-    border-radius: 20px;
-}
-
 #map {
     max-width: 100%;
 }
@@ -502,6 +496,24 @@ div#result {
     padding: 20px;
 }
 /* --------------*/
+
+/* ------- Valid -------*/
+
+div.valid {
+    background-color: #afafafa1;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+div.valid p {
+    text-indent: 0px;
+    line-height: 17px;
+    margin: 10px
+}
+
+
+/* --------------*/
+
 
 /* ------- button -------*/
 
