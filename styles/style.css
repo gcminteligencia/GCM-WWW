@@ -478,7 +478,7 @@ div.result {
 }
 
 div.valid {
-    background-color: rgb(175, 175, 175);
+    background-color: #afafafa1;
     margin-bottom: 10px;
     border-radius: 20px;
 }
