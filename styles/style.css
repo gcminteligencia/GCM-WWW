@@ -511,6 +511,10 @@ div.valid p {
     margin: 10px
 }
 
+h3.valid {
+    color: var(--colour07);
+}
+
 
 /* --------------*/
 
