@@ -508,6 +508,7 @@ div.valid {
 div.valid p {
     text-indent: 0px;
     line-height: 17px;
+    text-align: left;
     margin: 10px
 }
 
