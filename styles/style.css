@@ -500,7 +500,10 @@ div#result {
 /* ------- Valid -------*/
 
 div.valid {
-    background-color: #afafafa1;
+    background: url(../images/logo/federacao/federaçãoh600opac15.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
     margin-bottom: 10px;
     border-radius: 20px;
 }
